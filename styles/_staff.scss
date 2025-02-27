@@ -1,0 +1,277 @@
+.staff-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 90px 0;
+
+  .info-wrapper {
+    margin-bottom: 30px;
+    padding-right: 100px;
+  }
+}
+
+.staff-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 15px;
+
+  .slide {
+    flex: 0 0 calc(33.3333% - 10px);
+    max-width: 251px;
+    min-width: 250px;
+    display: inline-block;
+    scroll-snap-align: start;
+  }
+
+  @media (max-width: 1248px) {
+    .staff-carousel {
+      .slide {
+        flex: 0 0 calc(50% - 10px);
+        max-width: none !important;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .slide {
+      flex: 0 0 100%;
+      max-width: none;
+    }
+  }
+}
+
+.staff-carousel,
+.staff-wrapper {
+  .info-wrapper {
+    h3 {
+      font-family: $font-blinker;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 23px;
+      color: $primary-color;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-family: $font-secondary;
+      font-weight: 600;
+      font-size: 64.6037px;
+      line-height: 93px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $secondary-color;
+    }
+
+    p {
+      font-family: $font-blinker;
+      font-weight: 400;
+      font-size: 20.9357px;
+      line-height: 29px;
+      color: $gray-color;
+    }
+  }
+
+  .image-wrapper {
+    img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+  }
+
+  .slide-info-wrapper {
+    background-color: $secondary-color;
+    padding: 27px 25px 45px 40px;
+    width: 100%;
+
+    .role {
+      font-family: $font-blinker;
+      font-weight: 400;
+      font-size: 18.5541px;
+      line-height: 22px;
+      color: $primary-color;
+    }
+
+    .name {
+      font-family: $font-blinker;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $white-color;
+    }
+
+    .description {
+      font-family: $font-blinker;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 14px;
+      color: #bfbfbf;
+
+      ul {
+        list-style: none;
+        padding: 0;
+        max-height: 75px;
+        overflow: hidden;
+        transition: all 0.5s ease;
+      }
+
+      li {
+        margin: 15px 0;
+        line-height: 1.2;
+
+        &:before {
+          content: "-";
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .content-wrapper {
+    padding: 0 15px;
+    max-width: 350px;
+  }
+
+  .slick-slide > div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .tn-btn-trigger {
+    background-color: transparent;
+    color: $primary-color;
+    font-family: $font-secondary;
+    font-weight: 400;
+    font-size: 26px;
+    border: none;
+
+    svg {
+      margin-left: 5px;
+      transition: 0.3s all ease;
+    }
+  }
+
+  .line {
+    background-color: $primary-color;
+    height: 2px;
+    width: 55px;
+  }
+}
+
+@media (max-width: 1499px) {
+  .staff-carousel .info-wrapper h2 {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .staff-carousel .slide-info-wrapper .name {
+    font-size: 18px;
+  }
+
+  .staff-carousel .content-wrapper {
+    padding: 0 6px;
+  }
+
+  .staff-carousel .info-wrapper p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .tn-btn-trigger {
+    font-size: 20px;
+
+    svg {
+      width: 10px;
+      margin-left: 3px;
+    }
+  }
+
+  .block h2,
+  .title-wrapper h2,
+  .staff-carousel .info-wrapper h2 {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .staff-carousel .slide-info-wrapper .name {
+    font-size: 16px;
+  }
+
+  .staff-carousel .slide-info-wrapper .description li {
+    margin: 8px 0;
+  }
+
+  .staff-carousel .info-wrapper h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .staff-carousel .info-wrapper h2 {
+    font-size: 28px;
+  }
+
+  .staff-wrapper {
+    padding: 90px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .staff-carousel .info-wrapper h2 {
+    line-height: 1.2;
+  }
+
+  .block h2,
+  .title-wrapper h2,
+  .staff-carousel .info-wrapper h2 {
+    line-height: 1.2;
+  }
+
+  .block h3,
+  .staff-carousel .info-wrapper h3 {
+    font-size: 16px;
+  }
+
+  .staff-wrapper {
+    padding: 60px 0 60px 0px;
+    .info-wrapper {
+      padding-right: 60px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .slide {
+    flex: 1 1 100%;
+    min-width: auto !important;
+  }
+  .staff-wrapper {
+    padding: 60px 30px;
+  }
+}
+
+.staff-carousel-navs {
+  display: flex;
+
+  .slick-next,
+  .slick-prev {
+    position: relative;
+    left: unset;
+    margin-top: 40px;
+    margin-right: 25px;
+  }
+
+  @media (max-width: 991px) {
+    .slick-next,
+    .slick-prev {
+      margin-top: 16px;
+      left: 12px !important;
+    }
+  }
+}

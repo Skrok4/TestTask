@@ -1,0 +1,262 @@
+.pricing {
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  padding-top: 260px;
+  padding-bottom: 260px;
+  font-family: $font-blinker;
+  background-image: url(../assets/img/pricing.png);
+
+  @media (max-width: 991px) {
+    background-image: none !important;
+  }
+  @media (min-width: 480px) and (max-width: 1920px) {
+    padding-bottom: calc(5rem + (16.25 - 5) * ((100vw - 30rem) / (120 - 30)));
+    padding-top: calc(2.5rem + (16.25 - 2.5) * ((100vw - 30rem) / (120 - 30)));
+  }
+}
+
+.container {
+  .col-12 {
+    &.col-md-7 {
+      .price-for-week {
+        p {
+          strong {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+.block-pricing {
+  p {
+    strong {
+      font-weight: 700;
+    }
+  }
+
+  ol,
+  ul {
+    padding-left: 18px;
+    li {
+      color: #999;
+      letter-spacing: 0.5px;
+      line-height: 1.5;
+      font-weight: 400;
+      margin-bottom: 13px;
+
+      @media (max-width: 479px) {
+        font-size: 1rem;
+      }
+
+      @media (min-width: 480px) and (max-width: 1920px) {
+        font-size: calc(1rem + (1.125 - 1) * ((100vw - 30rem) / (120 - 30)));
+      }
+
+      @media (min-width: 1921px) {
+        font-size: 1.125rem;
+      }
+    }
+  }
+
+  .title {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+
+    &::before {
+      content: "";
+      background: url("../assets/img/underline2.png") no-repeat center/contain;
+      width: 100%;
+      max-width: 480px;
+      height: 20px;
+      position: absolute;
+      bottom: 60%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+    }
+  }
+
+  img {
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .action-part {
+    padding-left: 50px;
+  }
+
+  &.text-style-2 {
+    h2 {
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 16px;
+      letter-spacing: 1.5px;
+      line-height: 22px;
+      color: #999;
+      font-weight: 700;
+      font-family: $font-blinker, sans-serif;
+    }
+  }
+}
+
+.bp {
+  p {
+    width: 70%;
+  }
+}
+
+.price-for-week {
+  display: block;
+  position: absolute;
+  left: 56%;
+  background: $white-color;
+  padding: 20px 60px;
+  margin-top: 370px;
+
+  .week {
+    font-family: $font-blinker;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: 0.05em;
+    color: $secondary-color;
+  }
+
+  strong {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #000;
+  }
+}
+
+@media (max-width: 1550px) {
+  .price-for-week {
+    left: 52%;
+  }
+}
+
+@media (max-width: 1499px) {
+  .price-for-week {
+    left: 54%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .price-for-week {
+    left: 51%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .price-for-week {
+    .week {
+      font-size: 20px;
+    }
+    strong {
+      font-size: 28px;
+    }
+  }
+
+  .action-part {
+    padding-left: 20px;
+  }
+  .price-for-week {
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .block-pricing {
+    .title {
+      font-size: 50px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .price-for-week {
+    left: 49%;
+    padding: 10px 40px;
+  }
+  .register {
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .price-for-week {
+    margin-top: 30px;
+    position: relative;
+    left: unset;
+    bottom: unset;
+    // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price-for-week {
+    bottom: 0px;
+  }
+
+  .block-pricing {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .price-for-week {
+    position: relative;
+
+    strong {
+      font-size: 18px;
+    }
+    .week {
+      font-size: 16px;
+    }
+  }
+  .pricing {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .register {
+    margin: 0 auto !important;
+  }
+
+  .title {
+    font-size: 38px !important;
+    text-align: center;
+    &::before {
+      height: 15px !important;
+      bottom: 58% !important;
+    }
+  }
+}
+
+.register {
+  margin-top: 50px;
+}
+
+.accent {
+  text-decoration: underline;
+  text-decoration-color: $primary-color;
+}

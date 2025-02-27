@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Light.eot');
+    src: url('../fonts/Poppins-Light.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Light.woff') format('woff'),
+    url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Regular.woff') format('woff'),
+    url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.eot');
+    src: url('../fonts/Poppins-Medium.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Medium.woff') format('woff'),
+    url('../fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.eot');
+    src: url('../fonts/Poppins-Bold.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Bold.woff') format('woff'),
+    url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Black.eot');
+    src: url('../fonts/Poppins-Black.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Black.woff') format('woff'),
+    url('../fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Oxanium';
+    src: url('../fonts/Oxanium-VariableFont_wght.eot');
+    src: url('../fonts/Oxanium-VariableFont_wght.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Oxanium-VariableFont_wght.woff') format('woff'),
+    url('../fonts/Oxanium-VariableFont_wght.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Teko';
+    src: url('../fonts/Teko/OTeko-Bold.eot');
+    src: url('../fonts/Teko-Bold.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Teko-Bold.woff') format('woff'),
+    url('../fonts/Teko-Bold.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Teko';
+    src: url('../fonts/Teko-Light.eot');
+    src: url('../fonts/Teko-Light.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Teko-Light.woff') format('woff'),
+    url('../fonts/Teko-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Teko';
+    src: url('../fonts/Teko-Medium.eot');
+    src: url('../fonts/Teko-Medium.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Teko-Medium.woff') format('woff'),
+    url('../fonts/Teko-Medium.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Teko';
+    src: url('../fonts/Teko-Regular.eot');
+    src: url('../fonts/Teko-Regular.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Teko-Regular.woff') format('woff'),
+    url('../fonts/Teko-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Teko';
+    src: url('../fonts/Teko-SemiBold.eot');
+    src: url('../fonts/Teko-SemiBold.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Teko-SemiBold.woff') format('woff'),
+    url('../fonts/Teko-SemiBold.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Blinker';
+    src: url('../fonts/Blinker-Black.eot');
+    src: url('../fonts/Blinker-Black.eot#iefix') format('embedded-opentype'),
+        url('../fonts/Blinker-Black.woff') format('woff'),
+        url('../fonts/Blinker/Blinker-Black.ttf') format('truetype');
+        
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blinker';
+    src: url('../fonts/Blinker-ExtraBold.eot');
+    src: url('../fonts/Blinker-ExtraBold.eot#iefix') format('embedded-opentype'),
+        url('../fonts/Blinker-ExtraBold.woff') format('woff'),
+        url('../fonts/Blinker/Blinker-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blinker';
+    src: url('../fonts/Blinker-ExtraLight.eot');
+    src: url('../fonts/Blinker-ExtraLight.eot#iefix') format('embedded-opentype'),
+        url('../fonts/Blinker-ExtraLight.woff') format('woff'),
+        url('../fonts/Blinker/Blinker-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blinker';
+    src: url('../fonts/Blinker-Bold.eot');
+    src: url('../fonts/Blinker-Bold.eot#iefix') format('embedded-opentype'),
+        url('../fonts/Blinker-Bold.woff') format('woff'),
+        url('../fonts/Blinker/Blinker-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blinker';
+    src: url('../fonts/Blinker-ExtraLight.eot');
+    src: url('../fonts/Blinker-ExtraLight.eot#iefix') format('embedded-opentype'),
+        url('../fonts/Blinker-ExtraLight.woff') format('woff'),
+        url('../fonts/Blinker/Blinker-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blinker';
+    src: url('../fonts/Blinker-Thin.eot');
+    src: url('../fonts/Blinker-Thin.eot#iefix') format('embedded-opentype'),
+        url('../fonts/Blinker-Thin.woff') format('woff'),
+        url('../fonts/Blinker/Blinker-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blinker';
+    src: url('../fonts/Blinker-SemiBold.eot');
+    src: url('../fonts/Blinker-SemiBold.eot#iefix') format('embedded-opentype'),
+        url('../fonts/Blinker-SemiBold.woff') format('woff'),
+        url('../fonts/Blinker/Blinker-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blinker';
+    src: url('../fonts/Blinker-Regular.eot');
+    src: url('../fonts/Blinker-Regular.eot#iefix') format('embedded-opentype'),
+        url('../fonts/Blinker-Regular.woff') format('woff'),
+        url('../fonts/Blinker/Blinker-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
