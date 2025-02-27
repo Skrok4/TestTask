@@ -148,6 +148,7 @@
     font-weight: 400;
     font-size: 26px;
     border: none;
+    z-index: 999;
 
     svg {
       margin-left: 5px;
@@ -274,4 +275,9 @@
       left: 12px !important;
     }
   }
+}
+
+
+#staff{
+  margin-bottom: 20px;
 }
